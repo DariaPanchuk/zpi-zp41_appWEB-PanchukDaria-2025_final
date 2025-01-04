@@ -1,30 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Top3D</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Oxygen:wght@300;400;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
 </head>
+
 <body class="page">
     <header class="header">
         <div class="container header__container">
             <div class="header__menu">
-                <a class="link" chref="./index.html">
-                    <svg id="logo" class="navigation__logo" width="150" height="50">
+                <a class="link" href="./index.html">
+                    <svg class="logo" width="150" height="50">
                         <use href="./img/svg/symbol-defs.svg#icon-logo"></use>
                     </svg>
                 </a>
+                
+                <button class="mobile-menu-btn btn" type="button" data-menu-button>
+                    <!-- <svg class="mobile-menu-icon" width="24" height="16">
+                        <use class="mobile-menu-open" href="./img/svg/symbol-defs.svg#icon-menu"></use>
+                        <use class="mobile-menu-close" href="./img/svg/symbol-defs.svg#icon-close-menu"></use>
+                    </svg> -->
+                    <span class="mobile-menu-open">Menu</span>
+                </button>
+
                 <nav class="navigation">
                     <ul class="list navigation__list">
                         <li class="navigation__item"><a class="link navigation__link" href="./index.html">Home</a></li>
-                        <li class="navigation__item"><a class="link navigation__link" href="./logic.html">About us</a></li>
+                        <li class="navigation__item"><a class="link navigation__link" href="./logic.html">About us</a>
+                        </li>
                         <li class="navigation__item"><a class="link navigation__link" href="#services">Services</a></li>
                         <li class="navigation__item"><a class="link navigation__link" href="#works">Projects</a></li>
-                        <li class="navigation__item"><a class="link navigation__link" href="#contact_us">Contacts</a></li>
+                        <li class="navigation__item"><a class="link navigation__link" href="#contact_us">Contacts</a>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -32,7 +47,7 @@
                 <uL class="list socials__list">
                     <li class="socials__item">
                         <a class="link socials__link" href="">
-                            <svg width="20" height="20" >
+                            <svg width="20" height="20">
                                 <use href="./img/svg/symbol-defs.svg#icon-instagram"></use>
                             </svg>
                         </a>
@@ -59,7 +74,7 @@
         <section class="hero">
             <div class="container hero__container">
                 <h1 class="hero__title">Precision <br> 3D Printing <br> Solutions</h1>
-                <button class="btn hero__btn" type="button">Explore more</button>
+                <a class="link" href="./logic.html"><button class="btn hero__btn" type="button">Explore more</button></a>
             </div>
             <img class="hero__img" src="./img/images/octopus.png" alt="Octopus" width="1150">
         </section>
@@ -69,9 +84,12 @@
                     <div class="about__main">
                         <h2 class="section-title">About us</h2>
                         <h3 class="about__title">Shaping the Future <br> of Manufacturing</h3>
-                        <p class="about__text">Lorem ipsum odor amet, consectetuer adipiscing elit. Ultricies massa diam tempor; quam magna vestibulum. Pretium vitae
-                        ullamcorper accumsan cubilia hendrerit hac. Pellentesque cras semper hendrerit nisl cubilia consectetur torquent. Quam
-                        purus nullam parturient mauris amet aptent dignissim etiam arcu. Mattis hac sodales libero volutpat tortor faucibus.</p>
+                        <p class="about__text">Lorem ipsum odor amet, consectetuer adipiscing elit. Ultricies massa diam
+                            tempor; quam magna vestibulum. Pretium vitae
+                            ullamcorper accumsan cubilia hendrerit hac. Pellentesque cras semper hendrerit nisl cubilia
+                            consectetur torquent. Quam
+                            purus nullam parturient mauris amet aptent dignissim etiam arcu. Mattis hac sodales libero
+                            volutpat tortor faucibus.</p>
                     </div>
                     <div class="about__buttons">
                         <button class="btn about__btn" type="button">Materials</button>
@@ -83,38 +101,41 @@
                     <ul class="list benefits__list">
                         <li class="benefits__item">
                             <div class="benefits__icon">
-                                <svg width="76" height="76">
+                                <svg width="60" height="60">
                                     <use href="./img/svg/symbol-defs.svg#icon-about_us_1" fill="#CCF203"></use>
                                 </svg>
                             </div>
                             <div class="benefits__description">
                                 <h4 class="benefits__title">High print quality</h4>
-                                <p class="benefits__text">Lorem ipsum odor amet, consectetuer adipiscing elit. Adipiscing natoque dapibus libero turpis class habitasse duis
-                                dolor.</p>
+                                <p class="benefits__text">Lorem ipsum odor amet, consectetuer adipiscing elit.
+                                    Adipiscing natoque dapibus libero turpis class habitasse duis
+                                    dolor.</p>
                             </div>
                         </li>
                         <li class="benefits__item">
                             <div class="benefits__icon">
-                                <svg class="benefits__icon" width="76" height="76">
+                                <svg class="benefits__icon" width="60" height="60">
                                     <use href="./img/svg/symbol-defs.svg#icon-about_us_2" fill="#CCF203"></use>
                                 </svg>
                             </div>
                             <div class="benefits__description">
                                 <h4 class="benefits__title">Fast printing</h4>
-                                <p class="benefits__text">Lorem ipsum odor amet, consectetuer adipiscing elit. Adipiscing natoque dapibus libero turpis class habitasse duis
-                                dolor.</p>
+                                <p class="benefits__text">Lorem ipsum odor amet, consectetuer adipiscing elit.
+                                    Adipiscing natoque dapibus libero turpis class habitasse duis
+                                    dolor.</p>
                             </div>
                         </li>
                         <li class="benefits__item">
                             <div class="benefits__icon">
-                                <svg class="benefits__icon" width="76" height="76">
+                                <svg class="benefits__icon" width="60" height="60">
                                     <use href="./img/svg/symbol-defs.svg#icon-about_us_3" fill="#CCF203"></use>
                                 </svg>
                             </div>
                             <div class="benefits__description">
                                 <h4 class="benefits__title">Customer service</h4>
-                                <p class="benefits__text">Lorem ipsum odor amet, consectetuer adipiscing elit. Adipiscing natoque dapibus libero turpis class habitasse duis
-                                dolor.</p>
+                                <p class="benefits__text">Lorem ipsum odor amet, consectetuer adipiscing elit.
+                                    Adipiscing natoque dapibus libero turpis class habitasse duis
+                                    dolor.</p>
                             </div>
                         </li>
                     </ul>
@@ -122,19 +143,54 @@
             </div>
         </section>
         <section class="section" id="works">
-            <div class="container">
+            <div class="container works">
                 <h2 class="section-title">Our works</h2>
                 <ul class="list works__list">
-                    <li class="works__item"><img class="works__img" src="./img/images/2024-10-29_0c64e9528820f.webp" alt="3D Table Football" width="450"></li>
-                    <li class="works__item"><img class="works__img" src="./img/images/2024-11-07_ce8e38e158c6.webp" alt="3D Cactus" width="450"></li>
-                    <li class="works__item"><img class="works__img" src="./img/images/2024-11-08_84ce058e50895.webp" alt="3D Santa Claus" width="450"></li>
-                    <li class="works__item"><img class="works__img" src="./img/images/2024-11-07_cf0e8cd7d54828.webp" alt="3D Octopus" width="690"></li>
-                    <li class="works__item"><img class="works__img" src="./img/images/2024-11-09_6f2162583973.webp" alt="3D Plant Pot" width="690"></li>
+                    <li сlass="works__item">
+                        <picture class="img">
+                            <source media="(min-width: 1440px)" srcset="./img/images/football_desc.webp" width="450">
+                            <source media="(min-width: 768px)" srcset="./img/images/football_tab.webp" width="340">
+                            <source media="(max-width: 767px)" srcset="./img/images/football_mob.webp" width="288">
+                            <img class="works__img" src="./img/images/football_mob.webp" alt="3D Table Football" width="288">
+                        </picture>
+                    </li>
+                    <li сlass="works__item">
+                        <picture class="img">
+                            <source media="(min-width: 1440px)" srcset="./img/images/cactus_desc.webp" width="450">
+                            <source media="(min-width: 768px)" srcset="./img/images/cactus_tab.webp" width="340">
+                            <source media="(max-width: 767px)" srcset="./img/images/cactus_mob.webp" width="288">
+                            <img class="works__img" src="./img/images/cactus_mob.webp" alt="3D Table Football" width="288">
+                        </picture>
+                    </li>
+                    <li сlass="works__item">
+                        <picture class="img">
+                            <source media="(min-width: 1440px)" srcset="./img/images/santa_desc.webp" width="450">
+                            <source media="(min-width: 768px)" srcset="./img/images/santa_tab.webp" width="340">
+                            <source media="(max-width: 767px)" srcset="./img/images/santa_mob.webp" width="288">
+                            <img class="works__img" src="./img/images/santa_mob.webp" alt="3D Table Football" width="288">
+                        </picture>
+                    </li>
+                    <li сlass="works__item">
+                        <picture class="img">
+                            <source media="(min-width: 1440px)" srcset="./img/images/octopus_desc.webp" width="690">
+                            <source media="(min-width: 768px)" srcset="./img/images/octopus_tab.webp" width="340">
+                            <source media="(max-width: 767px)" srcset="./img/images/octopus_mob.webp" width="288">
+                            <img class="works__img" src="./img/images/octopus_mob.webp" alt="3D Table Football" width="288">
+                        </picture>
+                    </li>
+                    <li сlass="works__item">
+                        <picture class="img">
+                            <source media="(min-width: 1440px)" srcset="./img/images/pot_desc.webp" width="690">
+                            <source media="(min-width: 768px)" srcset="./img/images/pot_tab.webp" width="340">
+                            <source media="(max-width: 767px)" srcset="./img/images/pot_mob.webp" width="288">
+                            <img class="works__img" src="./img/images/pot_mob.webp" alt="3D Table Football" width="288">
+                        </picture>
+                    </li>
                 </ul>
             </div>
         </section>
         <section class="section" id="services">
-            <div class="container activity__container">
+            <div class="container activity">
                 <div class="activity__headline">
                     <h2 class="section-title">What we do</h2>
                     <h3 class="activity__title">3D Printing Solutions <br> for Your Business</h3>
@@ -148,7 +204,9 @@
                                 </svg>
                                 <h4 class="activity__name">3D Modeling & <br> CAD Services</h4>
                             </div>
-                            <p class="activity__desc">Lorem ipsum odor amet, consectetuer adipiscing elit. Magnis erat volutpat ornare ultrices nulla. Ultrices bibendum sem lacus praesent orci sodales aliquet odio. Morbi euismod justo parturient; et dictumst nisl curae.</p>
+                            <p class="activity__desc">Lorem ipsum odor amet, consectetuer adipiscing elit. Magnis erat
+                                volutpat ornare ultrices nulla. Ultrices bibendum sem lacus praesent orci sodales
+                                aliquet odio. Morbi euismod justo parturient; et dictumst nisl curae.</p>
                         </li>
                         <li class="activity__item">
                             <div class="activity__service">
@@ -157,7 +215,9 @@
                                 </svg>
                                 <h4 class="activity__name">Small-Batch Production</h4>
                             </div>
-                            <p class="activity__desc">Lorem ipsum odor amet, consectetuer adipiscing elit. Magnis erat volutpat ornare ultrices nulla. Ultrices bibendum sem lacus praesent orci sodales aliquet odio. Morbi euismod justo parturient; et dictumst nisl curae.</p>
+                            <p class="activity__desc">Lorem ipsum odor amet, consectetuer adipiscing elit. Magnis erat
+                                volutpat ornare ultrices nulla. Ultrices bibendum sem lacus praesent orci sodales
+                                aliquet odio. Morbi euismod justo parturient; et dictumst nisl curae.</p>
                         </li>
                         <li class="activity__item">
                             <div class="activity__service">
@@ -166,7 +226,9 @@
                                 </svg>
                                 <h4 class="activity__name">Material Consultation</h4>
                             </div>
-                            <p class="activity__desc">Lorem ipsum odor amet, consectetuer adipiscing elit. Magnis erat volutpat ornare ultrices nulla. Ultrices bibendum sem lacus praesent orci sodales aliquet odio. Morbi euismod justo parturient; et dictumst nisl curae.</p>
+                            <p class="activity__desc">Lorem ipsum odor amet, consectetuer adipiscing elit. Magnis erat
+                                volutpat ornare ultrices nulla. Ultrices bibendum sem lacus praesent orci sodales
+                                aliquet odio. Morbi euismod justo parturient; et dictumst nisl curae.</p>
                         </li>
                         <li class="activity__item">
                             <div class="activity__service">
@@ -175,36 +237,43 @@
                                 </svg>
                                 <h4 class="activity__name">Custom Product Design</h4>
                             </div>
-                            <p class="activity__desc">Lorem ipsum odor amet, consectetuer adipiscing elit. Magnis erat volutpat ornare ultrices nulla. Ultrices bibendum sem lacus praesent orci sodales aliquet odio. Morbi euismod justo parturient; et dictumst nisl curae.</p>
+                            <p class="activity__desc">Lorem ipsum odor amet, consectetuer adipiscing elit. Magnis erat
+                                volutpat ornare ultrices nulla. Ultrices bibendum sem lacus praesent orci sodales
+                                aliquet odio. Morbi euismod justo parturient; et dictumst nisl curae.</p>
                         </li>
                     </ul>
                 </div>
             </div>
         </section>
         <section class="section" id="contact_us">
-            <div class="container contacts__container">
+            <div class="container contacts">
                 <div class="contacts__info">
                     <div class="contacts__headline">
                         <h3 class="contacts__title">Contact us</h3>
-                        <p class="contacts__desc">We are responsible for maintaining and protecting the Personal Information under our control.</p>
+                        <p class="contacts__desc">We are responsible for maintaining and protecting the Personal
+                            Information under our control.</p>
                     </div>
-                    <form class="contacts__form" action="">
+                    <form class="contacts__form">
                         <ul class="list contacts__list">
                             <li class="contacts__item">
                                 <label class="contacts__label" for="user-name">Name</label>
-                                <input class="contacts_input" type="text" id="user-name" name="user-name" placeholder="Alice Smith">
+                                <input class="contacts_input" type="text" id="user-name" name="user-name"
+                                    placeholder="Alice Smith">
                             </li>
                             <li class="contacts__item">
                                 <label class="contacts__label" for="user-phone">Telephone</label>
-                                <input class="contacts_input" type="tel" id="user-phone" name="user-phone" placeholder="+380...">
+                                <input class="contacts_input" type="tel" id="user-phone" name="user-phone"
+                                    placeholder="+380...">
                             </li>
                             <li class="contacts__item">
                                 <label class="contacts__label" for="user-email">Email</label>
-                                <input class="contacts_input" type="email" id="user-email" name="user-email" placeholder="email@email.com">
+                                <input class="contacts_input" type="email" id="user-email" name="user-email"
+                                    placeholder="email@email.com">
                             </li>
                             <li class="contacts__item">
                                 <label class="contacts__label" for="user-comment">Comment</label>
-                                <textarea class="contacts_input" id="user-comment" name="user-comment" placeholder="Your comment" id="textarea"></textarea>
+                                <textarea class="contacts_input" id="user-comment" name="user-comment"
+                                    placeholder="Your comment" id="textarea"></textarea>
                             </li>
                         </ul>
                         <button class="btn contacts__button" type="submit">Send</button>
@@ -214,10 +283,10 @@
         </section>
     </main>
     <footer class="container">
-        <div class="footer__container">
+        <div class="footer">
             <div class="footer__main">
-                <a class="link footer__main-link" chref="./index.html">
-                    <svg class="footer__logo" width="240" height="80">
+                <a class="link footer__main-link" href="./index.html">
+                    <svg class="logo footer__logo" width="240" height="80">
                         <use href="./img/svg/symbol-defs.svg#icon-logo"></use>
                     </svg>
                 </a>
@@ -230,10 +299,12 @@
                     <nav>
                         <ul class="list footer__navigation">
                             <li class="footer__nav-item"><a class="link footer__link" href="/index.html">Home</a></li>
-                            <li class="footer__nav-item"><a class="link footer__link" href="./logic.html">About us</a></li>
+                            <li class="footer__nav-item"><a class="link footer__link" href="./logic.html">About us</a>
+                            </li>
                             <li class="footer__nav-item"><a class="link footer__link" href="#services">Services</a></li>
                             <li class="footer__nav-item"><a class="link footer__link" href="#works">Projects</a></li>
-                            <li class="footer__nav-item"><a class="link footer__link" href="#contact_us">Contacts</a></li>
+                            <li class="footer__nav-item"><a class="link footer__link" href="#contact_us">Contacts</a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -265,5 +336,21 @@
             </div>
         </div>
     </footer>
+
+
+    <!-- <div class="mobile-menu" data-menu>
+        <ul class="list navigation__list">
+            <li class="navigation__item"><a class="link navigation__link" href="./index.html">Home</a></li>
+            <li class="navigation__item"><a class="link navigation__link" href="./logic.html">About us</a>
+            </li>
+            <li class="navigation__item"><a class="link navigation__link" href="#services">Services</a></li>
+            <li class="navigation__item"><a class="link navigation__link" href="#works">Projects</a></li>
+            <li class="navigation__item"><a class="link navigation__link" href="#contact_us">Contacts</a>
+            </li>
+        </ul>
+    </div> -->
+    
+    <script src="./js/menu.js"></script>
 </body>
+
 </html>
